@@ -68,9 +68,7 @@ fun EditDevice(
         var newName by rememberSaveable { mutableStateOf(currentName) }
 
         OutlinedTextField(
-            colors = TextFieldDefaults.outlinedTextFieldColors(
-                containerColor = MaterialTheme.colorScheme.surface
-            ),
+            colors = TextFieldDefaults.colors(),
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(top = 20.dp, bottom = 24.dp),

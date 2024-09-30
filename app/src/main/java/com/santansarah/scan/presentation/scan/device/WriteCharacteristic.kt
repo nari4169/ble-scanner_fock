@@ -75,9 +75,7 @@ fun WriteCharacteristic(
 
         OutlinedTextField(
             enabled = char.canWrite,
-            colors = TextFieldDefaults.outlinedTextFieldColors(
-                containerColor = MaterialTheme.colorScheme.primaryContainer
-            ),
+            colors = TextFieldDefaults.colors(),
             label = {
                 Text(
                     text = "Hex String",

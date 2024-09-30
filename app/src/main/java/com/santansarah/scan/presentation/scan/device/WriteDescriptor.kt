@@ -83,9 +83,7 @@ fun WriteDescriptor(
 
         OutlinedTextField(
             enabled = enabled,
-            colors = TextFieldDefaults.outlinedTextFieldColors(
-                containerColor = MaterialTheme.colorScheme.primaryContainer
-            ),
+            colors = TextFieldDefaults.colors(),
             label = {
                 Text(
                     text = "Hex String",
